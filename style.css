@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #ffc9c9;
+}
+
+.main {
+  background-color: #5d001e;
+  height: 500px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  max-width: 450px;
+  margin: 0px auto;
+}
+h1 {
+  padding-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+#bill-amount,
+#cash-given {
+  display: block;
+}
+
+input {
+  padding: 0.8rem;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.error-message-cash {
+  color: #e3afbc;
+}
+
+.error-message-bill {
+  color: #e3afbc;
+}
+
+#btn-check {
+  background-color: #e3afbc;
+  padding: 0.8rem 3.8rem;
+  border-radius: 9px;
+  border: none;
+  color: #495057;
+  margin-top: 10px;
+}
+#btn-check:hover {
+  background-color: #f1ccd5;
+  cursor: grab;
+}
+
+.btn.btn-primary {
+  background-color: #3b5bdb;
+  padding: 1rem 3.8rem;
+  border-radius: 9px;
+  border: none;
+  color: white;
+  font-size: 2rem;
+}
+
+.btn.btn-primary:hover {
+  background-color: #4263eb;
+}
+.btn-secondary {
+  background-color: #edf2ff;
+  border: 3px solid #3b5bdb;
+  margin-left: 20px;
+
+  padding: 1rem 3.8rem;
+  border-radius: 9px;
+
+  color: black;
+  font-size: 2rem;
+}
+.change-table {
+  /* border: 1px solid green; */
+  margin: 10px auto;
+}
+th,
+td {
+  border: 0.2px solid #f1ccd5;
+  padding: 0.4rem 0.5rem;
+}
