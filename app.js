@@ -37,7 +37,7 @@ function showErrorMessagesBill() {
 }
 
 function showErrorMessagesCash() {
-  if (cash_given.value <= 0 || cash_given.value < bill_amount.value) {
+  if (cash_given.value <= 0 || Number(cash_given.value) < Number(bill_amount.value)) {
     error_message_cash.innerText = "Security! Make Him Do The Dishes🍜";
     error_message_cash.style.color = "#e03131";
     // change_table.style.display = "none";
